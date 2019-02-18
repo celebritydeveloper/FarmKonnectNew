@@ -1,0 +1,168 @@
+@media only screen and (min-width: 568px) {
+  header {
+    background: linear-gradient(
+        to right,
+        rgba(245, 240, 99, 0.6),
+        rgba(250, 235, 125, 0.6)
+      ),
+      url("../images/man-field-smartphone-yellow.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+  }
+
+  .mobile-navigation {
+      display: none
+  }
+
+  .web-navigation {
+      display: block;
+      padding: 10px 20px 0 20px;
+  }
+
+  .logo {
+      float: left;
+  }
+
+  .web-links {
+      float: left;
+      margin-left: 30px;
+      margin-top: 12px;
+  }
+
+  .web-links a {
+      color: rgb(119, 118, 118);
+      font-size: 18px;
+      display: inline-block;
+      margin-left: 30px;
+  }
+
+  .social-links {
+      float: right;
+      margin-top: 15px;
+  }
+
+  .social-links a {
+      color: rgb(119, 118, 118);
+      font-size: 20px;
+      margin-left: 8px;
+  }
+
+  .menu {
+      display: none;
+  }
+  
+
+  .service-card {
+    box-shadow: 3px 3px 15px 3px rgb(211, 211, 211);
+    float: left;
+    height: 380px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px 10px 20px 10px;
+    width: 32%;
+  }
+
+  .service-card:first-child {
+    margin-left: 0;
+
+  }
+
+  .service-card img {
+  height: auto;
+  width: 100px;
+}
+
+.affiliate-banner {
+    margin: 90px 0; 
+    overflow: hidden;
+    text-align: left;
+}
+
+.affiliate-writeup {
+    float: left;
+    width: 60%;
+}
+
+.affiliate-writeup p{
+    text-align: justify;
+}
+
+.affiliate-button {
+    float: right;
+    margin-top: 50px;
+    width: 20%
+}
+
+.join-community {
+    margin-top: 50px;
+}
+
+.community-image {
+    float: left;
+    width: 40%;
+}
+
+.community-word {
+    float: right;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.community-word p {
+    margin-top: 20px;
+}
+
+.partners {
+
+    margin-top: 70px;
+}
+
+.get-started {
+    border-bottom: 1px solid rgb(101, 101, 101);
+    margin-top: 80px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.partners img {
+    height: auto;
+    margin-right: 30px;
+    width: 120px;
+}
+
+.started-word {
+    float: left;
+}
+
+.action {
+    float: right;
+    margin-top: 15px;
+}
+
+.footer-links {
+    float: left;
+    margin-right: 5px;
+    width: 31%;
+}
+
+.phone {
+    width: 35%;
+}
+
+.phone a {
+    display: inline;
+    margin-right: 5px;
+}
+
+.location {
+    padding-right: 10px;
+}
+
+.socials {
+    display: none;
+}
+
+
+
+}

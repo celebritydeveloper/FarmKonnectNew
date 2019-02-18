@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: rgb(101, 101, 101);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+header {
+  background: linear-gradient(
+      to right,
+      rgba(255, 0, 0, 0.2),
+      rgba(255, 0, 0, 0.2)
+    ),
+    url("../images/man-field-smartphone-yellow.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+.mobile-navigation {
+  padding: 10px 15px 0 15px;
+}
+
+.web-navigation {
+  display: none;
+}
+
+.logo img {
+  height: auto;
+  width: 100px;
+}
+
+.menu a {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+}
+
+.intro {
+  margin-top: 50px;
+}
+
+.service-card {
+  border-radius: 5px;
+  box-shadow: 3px 3px 15px 3px rgb(240, 240, 240);
+  margin-top: 20px;
+  padding: 10px 10px 20px 10px;
+}
+
+.service-card a {
+  color: rgb(101, 101, 101);
+}
+
+.service-card:hover {
+  border: 1.5px solid rgb(81, 194, 132);
+  transition: all 0.3s ease;
+}
+
+.service-card img {
+  height: auto;
+  width: 120px;
+}
+
+.affiliate-banner {
+  background: linear-gradient(to right,rgba(39, 39, 39, 0.5),rgba(30, 31, 30, 0.6)),url("../images/Header-Banner.png");
+  background-position: center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  height: auto;
+  margin-top: 50px;
+  padding: 30px 10px 20px 10px;
+  text-align: center;
+}
+
+.community-image img {
+  height: auto;
+  width: 100%;
+}
+
+.community-word {
+  margin-top: 30px;
+}
+
+.benefits-one,
+.benefits-two {
+  margin-left: 20px;
+  padding: 0;
+  list-style-type: square;
+}
+
+.partner-logo img {
+  height: auto;
+  width: 90px;
+}
+
+.footer {
+  padding-bottom: 50px;
+}
+
+.get-started {
+  margin: 50px 0;
+}
+
+.footer-links {
+  margin-bottom: 30px;
+  padding-right: 50px;
+}
+
+.contact a {
+  display: block;
+  padding: 10px 0;
+}
+
+.contact a:last-child {
+  padding-bottom: 0;
+}
+
+.socials a {
+  padding-right: 15px;
+}
