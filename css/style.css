@@ -3,13 +3,13 @@
 }
 
 body {
-  font-family: sans-serif;
   margin: 0;
   padding: 0;
 }
 
 a {
   color: rgb(101, 101, 101);
+  cursor: pointer;
 }
 
 a:hover {
@@ -22,7 +22,7 @@ header {
       rgba(255, 0, 0, 0.2),
       rgba(255, 0, 0, 0.2)
     ),
-    url("../images/man-field-smartphone-yellow.jpg");
+    url("../images/home-background.jpg");
   background-position: center;
   background-size: cover;
   height: 400px;
@@ -54,7 +54,7 @@ header {
   border-radius: 5px;
   box-shadow: 3px 3px 15px 3px rgb(240, 240, 240);
   margin-top: 20px;
-  padding: 10px 10px 20px 10px;
+  padding: 15px 10px 20px 10px;
 }
 
 .service-card a {
@@ -68,7 +68,7 @@ header {
 
 .service-card img {
   height: auto;
-  width: 120px;
+  width: 100px;
 }
 
 .affiliate-banner {
@@ -127,4 +127,95 @@ header {
 
 .socials a {
   padding-right: 15px;
+}
+
+/* Our Core Values in About Page */
+
+
+.about-farmkonnect {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.our-core {
+  text-align: center;
+}
+
+.our-core img {
+  height: auto;
+  width: 70px;
+}
+
+.our-vision-img, .our-mission-img, .our-business-img {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(81, 194, 132);
+  border-radius: 50%;
+  display: inline-block;
+  height: 100px;
+  margin-bottom: 15px;
+  padding: 10px 0;
+  width: 100px;
+}
+
+
+.our-core > div {
+  margin-top: 35px;
+}
+
+.history {
+  margin-top: 80px;
+}
+
+.phone-contact, .address-contact, .email-contact, .social-contact {
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px 2px rgb(182, 182, 182);
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.phone-contact a {
+  display: block;
+}
+.social-contact a {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.contact-icon {
+  font-size: 22px;
+}
+
+.contact-form {
+  margin-top: 50px;
+}
+
+.input label {
+  display: block;
+}
+
+.input input, .input select {
+  border: 1px solid rgb(101, 101, 101);
+  border-radius: 4px;
+  display: block;
+  margin-bottom: 15px;
+  padding: 10px 5px;
+  width: 100%;
+}
+
+
+textarea {
+  border: 1px solid rgb(101, 101, 101);
+  border-radius: 4px;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+}
+
+.map img{
+  height: auto;
+  margin-bottom: 35px;
+  width: 100%;
 }

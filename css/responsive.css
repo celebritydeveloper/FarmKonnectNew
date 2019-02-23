@@ -1,14 +1,20 @@
 @media only screen and (min-width: 568px) {
+
+    body {
+        font-size: 17vpx;
+    }
+
   header {
     background: linear-gradient(
         to right,
-        rgba(245, 240, 99, 0.6),
-        rgba(250, 235, 125, 0.6)
+        rgba(37, 173, 117, 0.6),
+        rgba(37, 173, 117, 0.6)
       ),
-      url("../images/man-field-smartphone-yellow.jpg");
+      url("../images/home-background.jpg");
     background-position: center;
     background-size: cover;
-    height: 500px;
+    height: 600px;
+    position: relative;
   }
 
   .mobile-navigation {
@@ -16,8 +22,13 @@
   }
 
   .web-navigation {
+      background: rgb(255, 255, 255);
       display: block;
-      padding: 10px 20px 0 20px;
+      padding: 10px 20px 20px 20px;
+      position: fixed;
+      overflow: hidden;
+      top: 0;
+      width: 100%;
   }
 
   .logo {
@@ -39,7 +50,7 @@
 
   .social-links {
       float: right;
-      margin-top: 15px;
+      margin-top: 12px;
   }
 
   .social-links a {
@@ -48,10 +59,49 @@
       margin-left: 8px;
   }
 
+  .action-links {
+      float: right;
+      margin-right: 20px;
+      margin-top: 6px;
+  }
+
   .menu {
       display: none;
   }
+
+  .header-writeup {
+      color: rgb(255, 255, 255);
+      left: 50px;
+      position: absolute;
+      top: 200px;
+  }
+
+
+  .utilities {
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    margin-left: -10%;
+    text-align: center;
+  }
   
+
+  .utility {
+      background: rgb(255, 255, 255);
+      border: 1px solid rgb(101, 101, 101);
+      border-radius: 50%;
+      display: inline-block;
+      height: 120px;
+      margin-left: 50px;
+      padding-top: 30px;
+      text-align: center;
+      width: 120px; 
+  }
+
+  .utility img {
+      height: auto;
+      width: 60px;
+  }
 
   .service-card {
     box-shadow: 3px 3px 15px 3px rgb(211, 211, 211);
@@ -59,7 +109,7 @@
     height: 380px;
     margin-top: 20px;
     margin-left: 20px;
-    padding: 5px 10px 20px 10px;
+    padding: 20px 10px 20px 10px;
     width: 32%;
   }
 
@@ -70,7 +120,7 @@
 
   .service-card img {
   height: auto;
-  width: 100px;
+  width: 70px;
 }
 
 .affiliate-banner {
@@ -161,6 +211,81 @@
 
 .socials {
     display: none;
+}
+
+
+/* About FarmKonnect Styles */
+
+.about-us {
+    background: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px 2px rgb(119, 118, 118);
+    left: 0;
+    overflow: hidden;
+    padding: 20px 15px;
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+}
+
+.about-us h2 {
+    font-weight: 600;
+}
+
+
+.our-core > div {
+    float: left;
+    margin-left: 25px;
+    margin-top: 15%;
+    width: 31%;
+}
+
+.our-core > div > h3 {
+    font-weight: 600;
+}
+
+
+.our-core > div:first-child {
+    margin-left: 0;
+}
+
+
+.history h2 {
+    font-weight: 600;
+}
+
+
+.map {
+    float: left;
+    width: 45%;
+}
+
+.map img {
+    height: auto;
+    width: 100%;
+}
+
+.contact-form1 {
+    float: right;
+    width: 50%;
+}
+
+
+
+.contact-icon {
+    font-size: 30px;
+}
+
+.contact-us > div {
+    float: left;
+    height: 180px;
+    margin-left: 20px;
+    overflow: hidden;
+    padding: 10px;
+    width: 23%;
+}
+
+.contact-us > div:first-child {
+    margin-left: 0;
 }
 
 
