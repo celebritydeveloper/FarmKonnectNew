@@ -46,6 +46,10 @@ header {
   font-size: 22px;
 }
 
+.utilities {
+  display: none;
+}
+
 .intro {
   margin-top: 50px;
 }

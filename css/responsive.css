@@ -7,8 +7,8 @@
   header {
     background: linear-gradient(
         to right,
-        rgba(37, 173, 117, 0.6),
-        rgba(37, 173, 117, 0.6)
+        rgba(37, 173, 117, 0.5),
+        rgba(37, 173, 117, 0.5)
       ),
       url("../images/home-background.jpg");
     background-position: center;
@@ -76,20 +76,34 @@
       top: 200px;
   }
 
+  .header-writeup h1 {
+      font-size: 65px;
+  }
+
+  .header-writeup p {
+      font-size: 22px;
+      padding-right: 150px;
+  }
+
+  .intro {
+      margin-top: 150px;
+  }
+
 
   .utilities {
+      display: block;
     position: absolute;
     bottom: 90px;
     left: 50%;
-    margin-left: -10%;
+    margin-left: -30%;
     text-align: center;
   }
   
 
   .utility {
       background: rgb(255, 255, 255);
-      border: 1px solid rgb(101, 101, 101);
       border-radius: 50%;
+      box-shadow: 2px 8px 10px 3px rgb(173, 172, 172);
       display: inline-block;
       height: 120px;
       margin-left: 50px;
@@ -106,7 +120,7 @@
   .service-card {
     box-shadow: 3px 3px 15px 3px rgb(211, 211, 211);
     float: left;
-    height: 380px;
+    height: 320px;
     margin-top: 20px;
     margin-left: 20px;
     padding: 20px 10px 20px 10px;
@@ -120,6 +134,7 @@
 
   .service-card img {
   height: auto;
+  margin-bottom: 10px;
   width: 70px;
 }
 
