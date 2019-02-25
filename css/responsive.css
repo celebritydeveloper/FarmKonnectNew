@@ -29,6 +29,7 @@
       overflow: hidden;
       top: 0;
       width: 100%;
+      z-index: 2;
   }
 
   .logo {
@@ -91,11 +92,12 @@
 
 
   .utilities {
-      display: block;
-    position: absolute;
-    bottom: 90px;
+    display: block;
+    position: relative;
+    bottom: 70px;
     left: 50%;
     margin-left: -30%;
+    margin-right: 0;
     text-align: center;
   }
   
@@ -104,7 +106,8 @@
       background: rgb(255, 255, 255);
       border-radius: 50%;
       box-shadow: 2px 8px 10px 3px rgb(173, 172, 172);
-      display: inline-block;
+      display: block;
+      float: left;
       height: 120px;
       margin-left: 50px;
       padding-top: 30px;
@@ -115,6 +118,18 @@
   .utility img {
       height: auto;
       width: 60px;
+  }
+
+  .overlay {
+      background: rgb(101, 101, 101);
+      bottom: 50px;
+      left: 0;
+      height: 100%;
+      opacity: 1;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
   }
 
   .service-card {
@@ -229,6 +244,11 @@
 }
 
 
+
+
+
+
+
 /* About FarmKonnect Styles */
 
 .about-us {
@@ -267,6 +287,144 @@
 .history h2 {
     font-weight: 600;
 }
+
+.group-card {
+    float: left;
+    margin-left: 30px;
+    padding: 30px 10px 20px 10px;;
+    width: 47%;
+}
+
+
+.group-card img {
+    left: 20px;
+}
+
+.philosophies {
+    background: rgb(240, 240, 240);
+    border-radius: 5px;
+    float: left;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.philosophy li {
+    margin-bottom: 20px;
+    padding: 0;
+    text-align: justify;
+}
+
+.single-icon {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.single-icon:first-child {
+    margin-left: 0;
+}
+
+.single-icon img {
+    height: auto;
+    width: 90px;
+}
+
+.values {
+    float: right;
+    width: 45%;
+}
+
+.values-card {
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 2px rgb(211, 211, 211);
+    margin-top: 35px;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.values-card img {
+    height: auto;
+    width: 70px;
+}
+
+
+
+
+
+
+
+
+/* Projects Page Styling */
+
+.project-card {
+    float: left;
+    height: 560px;
+    margin-left: 30px;
+    padding: 20px;
+    text-align: center;
+    width: 48%;
+}
+
+.project-card:first-child {
+    margin-left: 0;
+}
+
+.project-image {
+    height: auto;
+    margin-right: 20px;
+}
+
+
+.project-image img {
+    width: 90px;
+}
+
+.project-writeup {
+    padding-bottom: 20px;
+}
+
+.project-approach {
+    float: left;
+    margin-left: 30px;
+    position: static;
+    width: 48%;
+}
+
+.project-approach:first-child {
+    margin-left: 0;
+}
+
+.approach-image {
+    background: none;
+    box-shadow: none;
+    float: left;
+    position: static;
+    width: 35%;
+}
+
+.approach-image img {
+    height: auto;
+    width: 70%;
+}
+
+.approach-desc {
+    float: right;
+    padding-right: 15px;
+    width: 60%;
+}
+
+.approach-desc p {
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+/* Contage Page Styling */
 
 
 .map {
