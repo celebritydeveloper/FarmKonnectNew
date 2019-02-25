@@ -377,6 +377,53 @@ header {
 }
 
 
+
+
+
+/* Representative Network Styling */
+
+.rep {
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px 2px rgb(220, 220, 220);
+  cursor: pointer;
+  margin-bottom: 30px; 
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.card h5 {
+  font-weight: 600;
+}
+
+.rep:hover {
+  border: 2px solid rgb(81, 194, 132);
+  transition: all .3s ease;
+}
+
+.rep-image {
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  box-shadow: 2px 2px 10px 2px rgb(220, 220, 220);
+  height: 120px;
+  margin-bottom: 5px;
+  position: relative;
+  width: 120px;
+}
+
+.rep-image img {
+  height: auto;
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+
+
+
+/* Contact Page Styling */
+
+
 .phone-contact, .address-contact, .email-contact, .social-contact {
   background: rgb(255, 255, 255);
   border-radius: 4px;
