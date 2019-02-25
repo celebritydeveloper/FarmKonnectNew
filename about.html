@@ -162,35 +162,35 @@
             <h2>Our Core Values</h2>
 
             <div class="values-title">
-                <button class="btn-special">Integrity</button>
-                <button class="btn-special">Competence</button>
-                <button class="btn-special">Simplicity</button>
-                <button class="btn-special">Equity</button>
+                <button class="btn-special" onclick="openCity(event, 'Integrity')">Integrity</button>
+                <button class="btn-special" onclick="openCity(event, 'Competence')">Competence</button>
+                <button class="btn-special" onclick="openCity(event, 'Simplicity')">Simplicity</button>
+                <button class="btn-special" onclick="openCity(event, 'Equity')">Equity</button>
             </div>
 
-            <div class="values-card">
+            <div class="values-card" id="Integrity">
                 <img src="images/mountain.png" alt="Integrity">
                 <h4>Integrity</h4>
                 <p>Integrity  is  like  a  ball,  it maintains  perspectives  in  all  angles of  views.  We  must  reflect  this  in  all our businesses.</p>
             </div>
 
-            <!--<div class="values-card">
+            <div class="values-card" id="Competence">
                 <img src="images/mountain.png" alt="Integrity">
                 <h4>Competence</h4>
                 <p>Modern  agriculture demands   practicing   in   accordance with  global  standard,  anything  less will fail. </p>
             </div>
 
-            <div class="values-card">
+            <div class="values-card" id="Simplicity">
                 <img src="images/mountain.png" alt="Integrity">
                 <h4>Simplicity</h4>
                 <p>Keepthings   really simple.</p>
             </div>
 
-            <div class="values-card">
+            <div class="values-card" id="Equity">
                 <img src="images/mountain.png" alt="Integrity">
                 <h4>Equity</h4>
                 <p>People should be commensurately  rewarded  for  their efforts and investments.</p>
-            </div>-->
+            </div>
         </div>
         <div class="clearfix"></div>
     </section>
@@ -257,6 +257,7 @@
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
 

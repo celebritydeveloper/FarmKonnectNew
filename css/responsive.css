@@ -313,23 +313,11 @@
     padding: 0;
     text-align: justify;
 }
-
-.single-icon {
-    display: inline-block;
-    margin-left: 50px;
-}
-
-.single-icon:first-child {
-    margin-left: 0;
-}
-
-.single-icon img {
-    height: auto;
-    width: 90px;
-}
+    
 
 .values {
     float: right;
+    margin: 0;
     width: 45%;
 }
 
@@ -346,6 +334,17 @@
     height: auto;
     width: 70px;
 }
+
+.btn-special {
+    font-size: 20px;
+    margin-left: 5px;
+    padding: 10px 15px;
+}
+
+.btn-special:first-child {
+    margin-left: 0;
+}
+
 
 
 
